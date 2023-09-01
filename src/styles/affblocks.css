@@ -1,0 +1,44 @@
+
+.container4 {
+    width: 100vw;
+    background-color: white;
+    
+}
+
+.block_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: white;
+    width: 1100px;
+    height: 450px;
+
+}
+
+.block_content,
+.block_img {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.block_img img {
+    width: 30vw;
+}
+
+.block_content h2 {
+    font-size: 3rem;
+    line-height: 65px;
+}
+
+.block_content p {
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+
+
+

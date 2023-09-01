@@ -1,0 +1,47 @@
+
+.container4 {
+    width: 100vw;
+    background-color: white;
+    
+}
+
+.ad-block_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: white;
+    width: 1100px;
+    height: 450px;
+
+}
+
+.ad-block_content,
+.ad-block_img {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.ad-block5_img img {
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+}
+
+
+.ad-block_content h2 {
+    font-size: 3rem;
+    line-height: 65px;
+}
+
+.ad-block_content p {
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+
+
+

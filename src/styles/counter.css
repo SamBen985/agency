@@ -1,0 +1,48 @@
+.container2 {
+    background-color: white;
+    padding-top: 50px;
+    height: 250px;
+    
+}
+
+.container_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;
+    width: 1200px;
+ 
+}
+
+
+.counter_item {
+    display: flex;
+    background-color: white; 
+   
+}
+.counter_item img{
+    width: 100px;
+    
+}
+.counter_number, .counter_title {
+    background: var(--counter-color);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter_number {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.counter_title {
+    font-size: 1.5rem;
+}
+
+#title {
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 15px;
+}

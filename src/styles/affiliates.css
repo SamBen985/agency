@@ -1,0 +1,59 @@
+.top {
+    background-color: rgb(51, 183, 163);
+    height: 50vh;
+    margin-bottom: -60px;
+}
+
+.aff_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.aff_content,
+.aff2_img {
+    width: 45%;
+}
+
+.aff2_img img{
+    height: 400px;
+    margin-top: -30px;
+}
+
+.aff_content h2 {
+    font-size: 3rem;
+    line-height: 65px;
+}
+
+.aff_content p {
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+.aff_btns {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.primary_btn, .secondary_btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.primary_btn{
+    background: var(--btn-secondary-bg);
+    border: 1px solid var(--btn-primary-bg);
+}
+.secondary_btn {
+    background: var(--btn-primary-bg);
+}
